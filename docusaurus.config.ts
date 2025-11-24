@@ -14,7 +14,8 @@ const config: Config = {
   baseUrl: "/docs/",
 
   organizationName: "mabrains",
-  projectName: "docs",
+  projectName: "chipro-docs",
+  deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
   markdown: {
