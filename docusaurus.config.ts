@@ -11,7 +11,7 @@ const config: Config = {
   future: { v4: true },
 
   url: "https://mabrains.github.io",
-  baseUrl: "/docs/",
+  baseUrl: "/chipro-docs/",
 
   organizationName: "mabrains",
   projectName: "chipro-docs",
