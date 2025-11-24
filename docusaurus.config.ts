@@ -48,7 +48,7 @@ const config: Config = {
     image: "img/social-card.png",
     colorMode: {
       defaultMode: "light",
-      respectPrefersColorScheme: true,
+      respectPrefersColorScheme: false,
       disableSwitch: false,
     },
     zoom: {
@@ -103,8 +103,8 @@ const config: Config = {
           items: [
             { label: "Features", href: "https://mabrains.com#features" },
             { label: "Tools", href: "https://mabrains.com#tools" },
-            { label: "Careers", href: "https://mabrains.com#careers" },
-            { label: "Contact", href: "https://mabrains.com#contact" },
+            { label: "Careers", href: "https://careers.mabrains.com/" },
+            { label: "Contact", href: "https://mabrains.com/contact" },
           ],
         },
         {
