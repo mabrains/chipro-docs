@@ -10,8 +10,8 @@ const config: Config = {
 
   future: { v4: true },
 
-  url: "https://docs.mabrains.com",
-  baseUrl: "/",
+  url: "https://mabrains.github.io",
+  baseUrl: "/docs/",
 
   organizationName: "mabrains",
   projectName: "docs",
@@ -56,7 +56,6 @@ const config: Config = {
         background: "rgba(0,0,0,0.8)",
         margin: 24,
         scrollOffset: 0,
-        
       },
     },
 
