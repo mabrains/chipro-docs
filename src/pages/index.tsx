@@ -64,7 +64,7 @@ export default function Home() {
 
   return (
     <Layout
-      title="Mabrains Docs"
+      title="Chipro Docs"
       wrapperClassName=""
       description="Agentic EDA & AI-Driven Chip Design Platform"
     >
@@ -87,7 +87,7 @@ export default function Home() {
 
             <p className={styles.heroDescription}>
               AI-driven chip-design environment. From schematics to layout,
-              Mabrains integrates AI assistants, design automation, and
+              Chipro integrates AI assistants, design automation, and
               open-source PDKs — everything you need to design chips faster.
             </p>
 
@@ -103,17 +103,17 @@ export default function Home() {
                 href="https://mabrains.com"
                 rel="noopener noreferrer"
               >
-                Visit Website
+                Visit  Website
               </Link>
             </div>
           </div>
         </header>
 
-        {/* Why Mabrains Section */}
+        {/* Why Chipro Section */}
         <section className={styles.why}>
           <div className={styles.container}>
             <div className={styles.sectionHeader}>
-              <h2 className={styles.sectionTitle}>Why Mabrains</h2>
+              <h2 className={styles.sectionTitle}>Why Chipro</h2>
               <p className={styles.sectionSubtitle}>
                 Everything engineers need to design better chips, faster
               </p>
@@ -146,7 +146,7 @@ export default function Home() {
               Ready to accelerate your design?
             </h2>
             <p className={styles.ctaDescription}>
-              Join thousands of engineers using Mabrains to design chips faster
+              Join thousands of engineers using Chipro to design chips faster
             </p>
             <Link className={styles.buttonPrimary} to="/docs/intro">
               Start Building

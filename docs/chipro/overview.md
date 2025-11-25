@@ -1,12 +1,12 @@
 ---
 title: Chipro Overview
-description: Overview of Chipro — the core Agentic EDA environment of Mabrains.
+description: Overview of Chipro — the core Agentic EDA environment of Mabrains
 sidebar_position: 1
 ---
 
 #  Chipro Overview
 
-**Chipro** is the heart of the Mabrains ecosystem — an **Agentic EDA environment** that unifies design management, simulation, automation, and AI assistance within a single collaborative workspace.
+**Chipro** is an **Agentic EDA environment** that unifies design management, simulation, automation, and AI assistance within a single collaborative workspace.
 
 It provides an **integrated, browser-based environment** where engineers can:
 - Manage **projects, libraries, categories, and cells**  
@@ -40,17 +40,6 @@ The Chipro interface uses a **five-pane adaptive layout**:
 
 ![Chipro Layout Overview](../../static/img/chipro/landing.png)
 
-> Each panel can be toggled to maximize focus on your current task, with layout preferences stored per session.
-
-
-##  Live Collaboration
-
-A persistent **WebSocket connection** provides:
-- Live updates for cell changes and version commits  
-- Automatic design reload when edits occur in shared sessions  
-- “Unsaved changes” detection for conflict-free editing  
-
----
 
 ##  Agentic AI Integration
 
@@ -61,19 +50,6 @@ Through **Mohet Chat**, users can:
 - Trigger automated design reviews  
 
 Mohet’s context awareness allows it to reference your **active cell, PDK, or tool** without additional configuration.
-
----
-
-##  Versioning & Automation
-
-Every design action (commit, simulation, layout export) is version-tracked.
-
-The **Actions Panel** provides:
-- **Add PDK** — Install or register process kits  
-- **Commit Project** — Save and version your workspace state  
-- **Run Flow** — Trigger automated design or verification pipelines  
-
-Automation jobs integrate with **Librelane**, providing history tracking, configuration inspection, and detailed logs — all accessible without leaving Chipro.
 
 ---
 

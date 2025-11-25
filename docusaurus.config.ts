@@ -4,8 +4,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 // Node-side config only (no browser APIs here)
 const config: Config = {
-  title: "Mabrains Docs",
-  tagline: "Agentic EDA & AI-Driven Chip Design Platform",
+  title: "Chipro Docs",
+  tagline: "Documentation for the Chipro Agentic EDA & AI-Driven Chip Design Platform",
   favicon: "img/mabrains_logo_simple.svg",
 
   future: { v4: true },
@@ -77,7 +77,7 @@ const config: Config = {
           position: "left",
           label: "Documentation",
         },
-        { href: "https://mabrains.com", label: "Website", position: "left" },
+        { href: "https://mabrains.com", label: "Mabrains Website", position: "left" },
         {
           href: "https://github.com/mabrains",
           label: "GitHub",
@@ -92,14 +92,14 @@ const config: Config = {
 
       links: [
         {
-          title: "Docs",
+          title: "Mabrains Docs",
           items: [
             { label: "Getting Started", to: "/docs/intro" },
-            { label: "Chipro", to: "/docs/chipro/overview" },
+            { label: "Platform Overview", to: "/docs/chipro/overview" },
           ],
         },
         {
-          title: "Company",
+          title: "Platform",
           items: [
             { label: "Features", href: "https://mabrains.com#features" },
             { label: "Tools", href: "https://mabrains.com#tools" },
@@ -157,7 +157,7 @@ const config: Config = {
     // ===== ANNOUNCEMENT BAR (optional) =====
     // announcementBar: {
     //   id: 'beta',
-    //   content: 'Mabrains Docs is in beta—feedback welcome!',
+    //   content: 'Chipro Docs is in beta—feedback welcome!',
     //   backgroundColor: 'var(--ifm-color-primary)',
     //   textColor: '#0b1220',
     //   isCloseable: true,

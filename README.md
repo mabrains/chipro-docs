@@ -1,6 +1,6 @@
-# Mabrains Docs
+# Chipro Docs
 
-This directory contains the Docusaurus site that powers the public Mabrains documentation, including the Chipro guides. It is a standard Docusaurus v3 project with a small amount of custom styling and plugins (image zoom).
+This directory contains the Docusaurus site that powers the Chipro documentation set. It is a standard Docusaurus v3 project with a small amount of custom styling and plugins (image zoom).
 
 ## Installation
 

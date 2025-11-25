@@ -5,7 +5,18 @@ const sidebars: SidebarsConfig = {
     {
       type: "doc",
       id: "intro",
-      label: "Welcome to Mabrains",
+      label: "Welcome to Chipro",
+    },
+    {
+      type: "category",
+      label: "Quick Start",
+      link: { type: "doc", id: "quick-start/overview" },
+      items: [
+        { type: "doc", id: "quick-start/sign-in" },
+        { type: "doc", id: "quick-start/libraries-cells" },
+        { type: "doc", id: "quick-start/tools" },
+        { type: "doc", id: "quick-start/mohet" },
+      ],
     },
     {
       type: "category",
@@ -136,6 +147,7 @@ const sidebars: SidebarsConfig = {
                   id: "chipro/design-manager/layout/actions",
                   label: "Actions",
                 },
+
                 {
                   type: "category",
                   label: "Cells",
@@ -192,6 +204,26 @@ const sidebars: SidebarsConfig = {
                       id: "chipro/design-manager/layout/views/open-in-tools",
                     },
                   ],
+                },
+              ],
+            },
+            {
+              type: "category",
+              label: "Clipboard System",
+              link: {
+                type: "doc",
+                id: "chipro/design-manager/clipboard/clipboard",
+              },
+              items: [
+                {
+                  type: "doc",
+                  id: "chipro/design-manager/clipboard/cells",
+                  label: "Cells",
+                },
+                {
+                  type: "doc",
+                  id: "chipro/design-manager/clipboard/views",
+                  label: "Views",
                 },
               ],
             },
