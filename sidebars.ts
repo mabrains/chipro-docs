@@ -12,8 +12,8 @@ const sidebars: SidebarsConfig = {
       label: "Quick Start",
       link: { type: "doc", id: "quick-start/overview" },
       items: [
-        { type: "doc", id: "quick-start/installation" },
         { type: "doc", id: "quick-start/sign-in" },
+        { type: "doc", id: "quick-start/installation" },
         { type: "doc", id: "quick-start/libraries-cells" },
         { type: "doc", id: "quick-start/tools" },
         { type: "doc", id: "quick-start/mohet" },

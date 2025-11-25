@@ -56,4 +56,4 @@ Mohet’s context awareness allows it to reference your **active cell, PDK, or t
 ##  Next Steps
 
 - [Design Manager →](./design-manager/overview.md) — Explore how libraries, categories, and cells are structured  
-- [Mohet Chat →](./mohet.md) — Learn how to interact with the AI assistant inside Chipro
+- [Mohet Chat →](./mohet/overview.md) — Learn how to interact with the AI assistant inside Chipro
