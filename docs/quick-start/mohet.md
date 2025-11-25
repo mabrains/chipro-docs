@@ -11,4 +11,4 @@ sidebar_position: 7
 3. Reference specific cells or runs in your prompt so Mohet can ground the response in the correct context.
 4. Use the follow-up actions to insert generated content back into your design or attach it to comments.
 
-See the [full Mohet guide](../chipro/mohet.md) for advanced prompt styles and automation triggers.
+See the [full Mohet guide](../chipro/mohet/overview.md) for advanced prompt styles and automation triggers.
