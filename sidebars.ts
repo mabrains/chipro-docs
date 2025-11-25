@@ -194,7 +194,10 @@ const sidebars: SidebarsConfig = {
                       type: "doc",
                       id: "chipro/design-manager/layout/views/create-view",
                     },
-
+                    {
+                      type: "doc",
+                      id: "chipro/design-manager/layout/views/librelane",
+                    },
                     {
                       type: "doc",
                       id: "chipro/design-manager/layout/views/manage-views",
