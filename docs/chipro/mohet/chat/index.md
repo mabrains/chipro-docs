@@ -1,22 +1,19 @@
 ---
-title: Chat Experience Overview
-description: Understand how the layout, timeline, and streaming engine come together inside Mohet chat.
+title: Chat Overview
+description: Learn how the Mohet chat interface works and how to navigate conversations.
 ---
 
-# Chat Experience Overview
+# Mohet Chat
 
-Mohet’s chat route combines a two-pane layout, flow-aware composer, and websocket-driven status stack. Use these guides to understand how each part behaves before mirroring the UX in your own demos or tests.
+Mohet’s chat interface is where you interact with the assistant, ask questions, debug circuits, summarize files, or explore designs.  
+The interface adapts to your device, supports real-time streaming responses, and gives you full control over conversation management.
 
-## Layout
+Use this section to explore:
 
-[Chat Layout](./chat-layout.md) covers the responsive sidebar, welcome state, and navigation shortcuts so you can mirror the `/mohet` shell on desktop and mobile.
+- How to manage messages efficiently
+- How flows customize Mohet’s responses
 
-## Messaging
+Continue with the pages in this section:
 
-[Sending Messages](./sending-messages.md) and [Attachments](./attachments.md) detail how the composer treats prompts, files, and context toggles, while [Streaming & Status](./streaming-and-status.md) explains the socket lifecycle and banner updates.
-
-## Actions & Flows
-
-[Message Actions](./message-actions.md) highlights copy, edit, and regenerate affordances, and [Flows](./flows.md) walks through the Default, Basic Analog, and Basic Digital behaviors that can be toggled mid-session.
-
-Read each section in order for a full picture of what the chat workspace expects from the backend.
+- [Message Actions](./message-actions.md)
+- [Flows](./flows.md)

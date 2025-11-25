@@ -289,9 +289,18 @@ const sidebars: SidebarsConfig = {
                 id: "chipro/mohet/getting-started/index",
               },
               items: [
-                { type: "doc", id: "chipro/mohet/getting-started/provider-setup" },
-                { type: "doc", id: "chipro/mohet/getting-started/embedding-setup" },
-                { type: "doc", id: "chipro/mohet/getting-started/model-selection" },
+                {
+                  type: "doc",
+                  id: "chipro/mohet/getting-started/provider-setup",
+                },
+                {
+                  type: "doc",
+                  id: "chipro/mohet/getting-started/embedding-setup",
+                },
+                {
+                  type: "doc",
+                  id: "chipro/mohet/getting-started/model-selection",
+                },
               ],
             },
             {
@@ -299,60 +308,74 @@ const sidebars: SidebarsConfig = {
               label: "Chat",
               link: { type: "doc", id: "chipro/mohet/chat/index" },
               items: [
-                { type: "doc", id: "chipro/mohet/chat/chat-layout" },
-                { type: "doc", id: "chipro/mohet/chat/sending-messages" },
-                { type: "doc", id: "chipro/mohet/chat/attachments" },
-                { type: "doc", id: "chipro/mohet/chat/streaming-and-status" },
                 { type: "doc", id: "chipro/mohet/chat/message-actions" },
                 { type: "doc", id: "chipro/mohet/chat/flows" },
               ],
             },
-            {
-              type: "category",
-              label: "Providers",
-              link: { type: "doc", id: "chipro/mohet/providers/index" },
-              items: [
-                { type: "doc", id: "chipro/mohet/providers/provider-tabs" },
-                { type: "doc", id: "chipro/mohet/providers/api-key-management" },
-                { type: "doc", id: "chipro/mohet/providers/validation-and-errors" },
-              ],
-            },
-            {
-              type: "category",
-              label: "Embeddings",
-              link: { type: "doc", id: "chipro/mohet/embeddings/index" },
-              items: [
-                { type: "doc", id: "chipro/mohet/embeddings/why-embeddings" },
-                { type: "doc", id: "chipro/mohet/embeddings/install-local-model" },
-                { type: "doc", id: "chipro/mohet/embeddings/choose-embedding-provider" },
-              ],
-            },
-            {
-              type: "category",
-              label: "Conversations",
-              link: { type: "doc", id: "chipro/mohet/conversations/index" },
-              items: [
-                { type: "doc", id: "chipro/mohet/conversations/list-and-navigation" },
-                {
-                  type: "doc",
-                  id: "chipro/mohet/conversations/rename-archive-delete",
-                },
-                {
-                  type: "doc",
-                  id: "chipro/mohet/conversations/create-new-conversation",
-                },
-              ],
-            },
-            {
-              type: "category",
-              label: "Settings",
-              link: { type: "doc", id: "chipro/mohet/settings/index" },
-              items: [
-                { type: "doc", id: "chipro/mohet/settings/update-api-key" },
-                { type: "doc", id: "chipro/mohet/settings/embedding-settings" },
-                { type: "doc", id: "chipro/mohet/settings/local-model-install" },
-              ],
-            },
+            // {
+            //   type: "category",
+            //   label: "Providers",
+            //   link: { type: "doc", id: "chipro/mohet/providers/index" },
+            //   items: [
+            //     { type: "doc", id: "chipro/mohet/providers/provider-tabs" },
+            //     {
+            //       type: "doc",
+            //       id: "chipro/mohet/providers/api-key-management",
+            //     },
+            //     {
+            //       type: "doc",
+            //       id: "chipro/mohet/providers/validation-and-errors",
+            //     },
+            //   ],
+            // },
+            // {
+            //   type: "category",
+            //   label: "Embeddings",
+            //   link: { type: "doc", id: "chipro/mohet/embeddings/index" },
+            //   items: [
+            //     { type: "doc", id: "chipro/mohet/embeddings/why-embeddings" },
+            //     {
+            //       type: "doc",
+            //       id: "chipro/mohet/embeddings/install-local-model",
+            //     },
+            //     {
+            //       type: "doc",
+            //       id: "chipro/mohet/embeddings/choose-embedding-provider",
+            //     },
+            //   ],
+            // },
+            // {
+            //   type: "category",
+            //   label: "Conversations",
+            //   link: { type: "doc", id: "chipro/mohet/conversations/index" },
+            //   items: [
+            //     {
+            //       type: "doc",
+            //       id: "chipro/mohet/conversations/list-and-navigation",
+            //     },
+            //     {
+            //       type: "doc",
+            //       id: "chipro/mohet/conversations/rename-archive-delete",
+            //     },
+            //     {
+            //       type: "doc",
+            //       id: "chipro/mohet/conversations/create-new-conversation",
+            //     },
+            //   ],
+            // },
+            // {
+            //   type: "category",
+            //   label: "Settings",
+            //   link: { type: "doc", id: "chipro/mohet/settings/index" },
+            //   items: [
+            //     { type: "doc", id: "chipro/mohet/settings/update-api-key" },
+            //     { type: "doc", id: "chipro/mohet/settings/embedding-settings" },
+            //     {
+            //       type: "doc",
+            //       id: "chipro/mohet/settings/local-model-install",
+            //     },
+            //   ],
+            // },
           ],
         },
         {

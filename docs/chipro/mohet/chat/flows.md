@@ -1,27 +1,63 @@
 ---
-title: Flow Management
-description: Switch between Default, Basic Analog, and Basic Digital flows without losing context.
+title: Flows
+description: Choose between Default, Analog, and Digital flows to tailor Mohet’s behavior.
 ---
 
-# Flow Management
+# Flows
 
-Mohet ships with three opinionated flows—**Default**, **Basic Analog**, and **Basic Digital**—that adjust prompt scaffolding, guardrails, and downstream automation settings.
+Flows guide Mohet’s behavior based on the type of task you’re working on.  
+Each flow adjusts the assistant’s prompting style and internal reasoning.
 
-## Choosing a Flow
+---
 
-- In the welcome state, the flow picker appears as a popover with descriptive text and icons so users can preview each option before their first message.
-- Each flow defines its own prompt styling, context window hints, and recommended models.
+## Available Flows
 
-## Active Sessions
+### Default Flow
 
-- When a conversation already exists, clicking the flow icon opens a warning modal that encourages users to start a new chat before switching flows.
-- If they proceed, Mohet records the change inside the conversation metadata and sends a websocket event so the backend updates routing.
-- Flow badges appear next to conversation titles in the sidebar, making it easy to scan large archives.
+General-purpose assistant for:
 
-## Backend Impact
+- Questions
+- Explanations
+- Code help
+- Math
+- Mixed topics
 
-- Flow selection modifies the server payload used for new conversations (system prompts, safety rules, automation hooks).
-- Some flows unlock provider-specific features, such as analog-focused toolkits or digital verification shortcuts.
-- When embeddings are required, the flow picker disables options until the embedding provider passes validation.
+### Analog Flow
 
-Design conversations around flows so teams can enforce best practices per discipline without confusing new users.
+Optimized for:
+
+- SPICE analysis
+- Device models
+- Biasing
+- Simulation errors
+- Analog design discussions
+
+### Digital Flow
+
+Designed for:
+
+- Verilog
+- RTL analysis
+- Timing logic
+- Boolean reasoning
+- Digital architecture
+
+---
+
+## How to Select a Flow
+
+Flows can be chosen:
+
+- From the welcome screen
+- From the icon in the chat header
+- From the flow popover
+
+If you change the flow inside an active conversation, Mohet displays a reminder that switching flows mid-thread may change context.  
+You are encouraged to start a new chat when switching flows for best results.
+
+---
+
+## Flow Persistence
+
+The selected flow applies only to the current conversation.  
+New conversations begin with the last-used flow unless changed manually.
