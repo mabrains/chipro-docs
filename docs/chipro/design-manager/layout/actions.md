@@ -46,3 +46,35 @@ For full details, refer to:
 [Version History](../versioning/overview.md)
 
 ![Version History Modal](@site/static/img/chipro/designManager/actions/OpenVersioning.png)
+
+---
+
+## Export Workspace
+
+The **Export** action lets you download your entire Chipro workspace — including all projects, libraries, categories, cells, and view files — as a single archive.  
+This is useful for:
+
+- Backups
+- Sharing designs with teammates
+- Migrating workspaces between environments
+- Offline storage
+
+The export tool is always available, regardless of which project or cell is selected.
+
+![Export Workspace Button](@site/static/img/chipro/designManager/actions/Export_1.png)
+
+---
+
+## Import Workspace
+
+The **Import** action lets you restore a previously exported Chipro workspace.  
+It is designed for:
+
+- Moving workspaces between machines
+- Restoring backups
+- Replacing damaged or outdated projects
+- Sharing complete project bundles with teammates
+
+Clicking **Import** opens the workspace-import modal.
+
+![Import Workspace Modal](@site/static/img/chipro/designManager/actions/Import.png)

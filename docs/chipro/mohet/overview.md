@@ -28,20 +28,4 @@ This section documents how Mohet works, how to set it up, and how to get the mos
 - Generate Verilog, SPICE, testbenches  
 - Walk through math or timing calculations  
 
----
-
-## Structure of This Documentation
-
-Use the sections in this category to learn:
-
-- **Getting Started** — provider setup, embedding configuration, first chat  
-- **Chat Interface** — layout, composer, streaming, attachments  
-- **Providers** — setting API keys, validation, switching models  
-- **Embeddings** — why embeddings matter, how to enable them  
-- **Conversation Management** — history, search, archive, restore  
-- **Settings** — model install, embedding selection, key updates  
-- **Real-Time Engine** — WebSocket behaviors, streaming, error states  
-
-Mohet is deeply integrated into Chipro.  
-As you build schematic or layout work, you can bring Mohet into the loop to accelerate your design process.
 

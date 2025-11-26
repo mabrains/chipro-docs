@@ -301,6 +301,11 @@ const sidebars: SidebarsConfig = {
                   type: "doc",
                   id: "chipro/mohet/getting-started/model-selection",
                 },
+                {
+                  type: "doc",
+                  id: "quick-start/tutorials/overview",
+                  label: "Tutorials",
+                },
               ],
             },
             {
