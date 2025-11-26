@@ -314,43 +314,8 @@ const sidebars: SidebarsConfig = {
             },
             {
               type: "doc",
-              id:"chipro/mohet/api-key-management"
+              id: "chipro/mohet/api-key-management",
             },
-            // {
-            //   type: "category",
-            //   label: "Embeddings",
-            //   link: { type: "doc", id: "chipro/mohet/embeddings/index" },
-            //   items: [
-            //     { type: "doc", id: "chipro/mohet/embeddings/why-embeddings" },
-            //     {
-            //       type: "doc",
-            //       id: "chipro/mohet/embeddings/install-local-model",
-            //     },
-            //     {
-            //       type: "doc",
-            //       id: "chipro/mohet/embeddings/choose-embedding-provider",
-            //     },
-            //   ],
-            // },
-            // {
-            //   type: "category",
-            //   label: "Conversations",
-            //   link: { type: "doc", id: "chipro/mohet/conversations/index" },
-            //   items: [
-            //     {
-            //       type: "doc",
-            //       id: "chipro/mohet/conversations/list-and-navigation",
-            //     },
-            //     {
-            //       type: "doc",
-            //       id: "chipro/mohet/conversations/rename-archive-delete",
-            //     },
-            //     {
-            //       type: "doc",
-            //       id: "chipro/mohet/conversations/create-new-conversation",
-            //     },
-            //   ],
-            // },
             {
               type: "category",
               label: "Settings",
