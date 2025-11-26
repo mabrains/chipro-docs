@@ -1,22 +1,57 @@
 ---
-title: Update API Key
-description: Rotate provider credentials directly from the Settings hub.
+title: Update Chipro API Key
+description: Manage and rotate your Chipro account key directly from Mohet’s Settings hub.
 ---
 
-# Update API Key
+# Update Chipro API Key
 
-The Settings hub includes a lightweight **Update API Key** tab so operators can rotate credentials without leaving the conversation.
+Mohet relies on your **Chipro account API key** to authenticate your workspace, load your chats, and unlock advanced platform capabilities.  
+This is separate from AI provider keys — it identifies _your Chipro user account_, not an AI model provider.
 
-## Editing a Key
+The **Update API Key** tab inside Mohet Settings provides a secure, self-contained way to:
 
-- Choose the provider from a dropdown; Mohet pre-fills the active key so you can edit or replace it.
-- Fields include **Nickname**, **Secret**, and optional **Endpoint Override**.
-- Validation runs instantly and displays progress next to the **Save** button.
+- Switch to a different Chipro account
+- Rotate your Chipro API key for security
 
-## Post-Validation Behavior
+It is designed for quick access and safe updates without affecting any of your chat history or model configurations.
 
-- Successful saves trigger a toast and instruct the chat header to reload provider metadata.
-- If validation fails, inline errors highlight whether the nickname, secret, or endpoint needs attention.
-- The composer remains disabled until validation returns a healthy status.
+---
 
-Use this flow for quick rotations; more complex tasks (multiple keys per provider) belong on the [API Key Management](../providers/api-key-management.md) screen.
+## Accessing the Update Screen
+
+Navigate to:
+
+**Settings → Update API Key**
+
+![Update API Key](@site/static/img/chipro/mohet/settings/apikeyUpdate.png)
+
+---
+
+## What Updating the Chipro Key Affects
+
+Changing the Chipro key **does not** alter AI provider configurations, embeddings, or model selections.
+
+It only updates:
+
+- Your Chipro account identity
+- Workspace-level permissions
+- Shared resources tied to your account
+
+## Troubleshooting
+
+### Authentication Error Dialog
+
+If Mohet detects an expired or invalid key while you're in the middle of a session, it will:
+
+- Block all chat actions
+- Show a modal explaining the issue
+
+Updating the key resolves the lockout.
+
+### Can't Click “Validate & Connect”?
+
+Ensure:
+
+- The acknowledgment checkbox is selected
+- The key starts with `mb-`
+- The length counter shows `64/64`

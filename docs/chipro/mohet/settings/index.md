@@ -1,14 +1,15 @@
 ---
-title: Settings Hub Overview
-description: Centralize embeddings, local models, and API key rotation in one modal.
+title: Settings Overview
+description: Configure Mohet’s providers, embeddings, models, and account-level options.
 ---
 
-# Settings Hub Overview
+# Settings
 
-Mohet includes a persistent **Settings** button that opens a multi-tab modal covering everything from embeddings to key rotation. Behind the scenes, the app listens to a global websocket so system-wide notifications reach every route.
+The Settings area centralizes all configuration for Mohet.  
+From here, you can manage chipro API key, embedding providers, embedding models configuration , and general preferences.
 
-- [Update API Key](./update-api-key.md) shows how to rotate credentials without leaving the chat.
-- [Embedding Settings](./embedding-settings.md) mirrors the embeddings tab for choosing providers and managing health.
-- [Local Model Install](./local-model-install.md) documents the HuggingFace installation form and progress tracking.
+Continue with:
 
-Helpful links to provider documentation and support make it easy to recover from outages without leaving the modal.
+- [API Key Settings](./update-api-key.md)
+- [Embedding Settings](./embedding-settings.md)
+- [Local Model Installation](../getting-started/embedding-setup.md#step-3--configure-or-install-the-embedding-model)

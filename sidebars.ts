@@ -312,22 +312,10 @@ const sidebars: SidebarsConfig = {
                 { type: "doc", id: "chipro/mohet/chat/flows" },
               ],
             },
-            // {
-            //   type: "category",
-            //   label: "Providers",
-            //   link: { type: "doc", id: "chipro/mohet/providers/index" },
-            //   items: [
-            //     { type: "doc", id: "chipro/mohet/providers/provider-tabs" },
-            //     {
-            //       type: "doc",
-            //       id: "chipro/mohet/providers/api-key-management",
-            //     },
-            //     {
-            //       type: "doc",
-            //       id: "chipro/mohet/providers/validation-and-errors",
-            //     },
-            //   ],
-            // },
+            {
+              type: "doc",
+              id:"chipro/mohet/api-key-management"
+            },
             // {
             //   type: "category",
             //   label: "Embeddings",
@@ -363,19 +351,15 @@ const sidebars: SidebarsConfig = {
             //     },
             //   ],
             // },
-            // {
-            //   type: "category",
-            //   label: "Settings",
-            //   link: { type: "doc", id: "chipro/mohet/settings/index" },
-            //   items: [
-            //     { type: "doc", id: "chipro/mohet/settings/update-api-key" },
-            //     { type: "doc", id: "chipro/mohet/settings/embedding-settings" },
-            //     {
-            //       type: "doc",
-            //       id: "chipro/mohet/settings/local-model-install",
-            //     },
-            //   ],
-            // },
+            {
+              type: "category",
+              label: "Settings",
+              link: { type: "doc", id: "chipro/mohet/settings/index" },
+              items: [
+                { type: "doc", id: "chipro/mohet/settings/update-api-key" },
+                { type: "doc", id: "chipro/mohet/settings/embedding-settings" },
+              ],
+            },
           ],
         },
         {

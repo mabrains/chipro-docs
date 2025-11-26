@@ -12,4 +12,3 @@ Model choice affects **response quality**, **speed**, and **reasoning depth**.
 The selected model applies to the current conversation unless changed.
 
 ![Model Selection Popover](@site/static/img/chipro/mohet/ModelsSelection.png)
-pdates instantly.

@@ -1,27 +1,88 @@
 ---
-title: Embedding Settings Tab
-description: Configure providers, health checks, and warnings from the Settings hub.
+title: Select Embedding Model
+description: Manage and activate your embedding provider inside Mohet Settings.
 ---
 
-# Embedding Settings Tab
+# Select Embedding Model
 
-The Settings hub dedicates a tab to embeddings so teams can manage providers, local models, and health signals without bouncing through multiple pages.
+This page allows you to choose which embedding model Mohet should use for semantic search, context improvement, and long-form understanding.
 
-## Provider Table
+Embedding models can be **local** or **remote**, and you may switch them at any time.
 
-- Lists every configured embedding provider with radio buttons to choose the active one.
-- Health badges (`Online`, `Syncing`, `Paused`) match what appears in the chat header.
-- Quick links take users to provider documentation or support articles.
+---
 
-## Controls
+## Browsing Available Models
 
-- Toggle embeddings on/off for individual flows, ensuring sensitive projects only use approved providers.
-- Provide HuggingFace tokens, repo IDs, and cache directories when the selected provider requires them.
-- Use filters/search to find specific models across large installations.
+All detected embedding models are listed in a simple, scrollable list:
 
-## Alerts & Guidance
+![Embedding List](@site/static/img/chipro/mohet/settings/Embedding_4.png)
 
-- Warning banners explain why embeddings matter when none are active, with a button that re-opens the onboarding modal.
-- Success banners summarize which flows unlocked once embeddings validated.
+For each model, Mohet shows:
 
-Pair this tab with the [Choose an Embedding Provider](../embeddings/choose-embedding-provider.md) and [Install a Local Embedding Model](../embeddings/install-local-model.md) guides for deeper implementation details.
+- The model name
+- Source (e.g., LMStudio, Local)
+- Selection state
+
+You can also search by name, tags, or description using the search bar.
+
+A provider filter on the right lets you narrow results to:
+
+- OpenAI
+- Groq
+- LMStudio
+- Ollama
+- Local models
+- ..etc
+
+---
+
+## Selecting an Embedding Model
+
+Click any model to activate it.  
+The active model is highlighted and marked with a check:
+
+![Active Model](@site/static/img/chipro/mohet/settings/Embedding_5.png)
+
+Mohet applies the model immediately — no reload or restart required.
+
+---
+
+## Deselecting
+
+If you want to clear the current embedding model, use the **Deselect** button:
+
+![Deselect](@site/static/img/chipro/mohet/settings/Embedding_1.png)
+
+When no model is active, Mohet will operate normally but without enhanced semantic context.
+
+---
+
+## Local Models
+
+If a model originates from a local installation, Mohet labels it as **Local**:
+
+![Local Model](@site/static/img/chipro/mohet/settings/Embedding_3.png)
+
+Local models are installed separately through:
+
+**Settings → Install Local Model**
+
+---
+
+## When No Models Match
+![No Match](@site/static/img/chipro/mohet/settings/Embedding_3.png)
+
+
+If your search or filters return no results, Mohet shows an empty state with a quick **Clear Filters** action.
+
+---
+
+## Notes
+
+- Only one embedding model can be active at a time.
+- You may switch models at any moment, even during ongoing conversations.
+- Removing or changing models does not affect chat history.
+
+For installation flow and details, see:
+
+**Mohet → Embedding Setup**
