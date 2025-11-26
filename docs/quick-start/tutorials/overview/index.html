@@ -3,235 +3,128 @@
 <head>
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.9.2">
-<title data-rh="true">Building a Full Digital Design From Chat | Chipro Docs</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://mabrains.github.io/chipro-docs/img/social-card.png"><meta data-rh="true" name="twitter:image" content="https://mabrains.github.io/chipro-docs/img/social-card.png"><meta data-rh="true" property="og:url" content="https://mabrains.github.io/chipro-docs/docs/quick-start/tutorials/overview"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Building a Full Digital Design From Chat | Chipro Docs"><meta data-rh="true" name="description" content="Learn how to use Mohet to create projects, generate HDL, run simulations, and inspect results—all without touching the Design Manager."><meta data-rh="true" property="og:description" content="Learn how to use Mohet to create projects, generate HDL, run simulations, and inspect results—all without touching the Design Manager."><link data-rh="true" rel="icon" href="/chipro-docs/img/mabrains_logo_simple.svg"><link data-rh="true" rel="canonical" href="https://mabrains.github.io/chipro-docs/docs/quick-start/tutorials/overview"><link data-rh="true" rel="alternate" href="https://mabrains.github.io/chipro-docs/docs/quick-start/tutorials/overview" hreflang="en"><link data-rh="true" rel="alternate" href="https://mabrains.github.io/chipro-docs/docs/quick-start/tutorials/overview" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Chipro","item":"https://mabrains.github.io/chipro-docs/docs/chipro/overview"},{"@type":"ListItem","position":2,"name":"Mohet Assistant","item":"https://mabrains.github.io/chipro-docs/docs/chipro/mohet/overview"},{"@type":"ListItem","position":3,"name":"Getting Started","item":"https://mabrains.github.io/chipro-docs/docs/chipro/mohet/getting-started/"},{"@type":"ListItem","position":4,"name":"Tutorials","item":"https://mabrains.github.io/chipro-docs/docs/quick-start/tutorials/overview"}]}</script><link rel="stylesheet" href="/chipro-docs/assets/css/styles.1ecb0e6f.css">
-<script src="/chipro-docs/assets/js/runtime~main.58682898.js" defer="defer"></script>
+<title data-rh="true">Full Digital Design From Chat | Chipro Docs</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://mabrains.github.io/chipro-docs/img/social-card.png"><meta data-rh="true" name="twitter:image" content="https://mabrains.github.io/chipro-docs/img/social-card.png"><meta data-rh="true" property="og:url" content="https://mabrains.github.io/chipro-docs/docs/quick-start/tutorials/overview"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Full Digital Design From Chat | Chipro Docs"><meta data-rh="true" name="description" content="Use Mohet to build a complete digital design—project, hierarchy, HDL, and LibreLane—directly from chat."><meta data-rh="true" property="og:description" content="Use Mohet to build a complete digital design—project, hierarchy, HDL, and LibreLane—directly from chat."><link data-rh="true" rel="icon" href="/chipro-docs/img/mabrains_logo_simple.svg"><link data-rh="true" rel="canonical" href="https://mabrains.github.io/chipro-docs/docs/quick-start/tutorials/overview"><link data-rh="true" rel="alternate" href="https://mabrains.github.io/chipro-docs/docs/quick-start/tutorials/overview" hreflang="en"><link data-rh="true" rel="alternate" href="https://mabrains.github.io/chipro-docs/docs/quick-start/tutorials/overview" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Chipro","item":"https://mabrains.github.io/chipro-docs/docs/chipro/overview"},{"@type":"ListItem","position":2,"name":"Mohet Assistant","item":"https://mabrains.github.io/chipro-docs/docs/chipro/mohet/overview"},{"@type":"ListItem","position":3,"name":"Getting Started","item":"https://mabrains.github.io/chipro-docs/docs/chipro/mohet/getting-started/"},{"@type":"ListItem","position":4,"name":"Tutorials","item":"https://mabrains.github.io/chipro-docs/docs/quick-start/tutorials/overview"}]}</script><link rel="stylesheet" href="/chipro-docs/assets/css/styles.1ecb0e6f.css">
+<script src="/chipro-docs/assets/js/runtime~main.530e3cde.js" defer="defer"></script>
 <script src="/chipro-docs/assets/js/main.38d57a73.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
 <symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
 </defs></svg>
-<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/chipro-docs/img/mabrains_logo_simple.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/chipro-docs/"><div class="navbar__logo"><img src="/chipro-docs/img/mabrains_logo_simple.svg" alt="Mabrains" class="themedComponent_mlkZ themedComponent--light_NVdE" height="28" width="28"><img src="/chipro-docs/img/mabrains_logo_simple.svg" alt="Mabrains" class="themedComponent_mlkZ themedComponent--dark_xIcU" height="28" width="28"></div><b class="navbar__title text--truncate">Mabrains</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/chipro-docs/docs/intro">Documentation</a><a href="https://mabrains.com" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Mabrains Website<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/mabrains" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/chipro-docs/docs/intro"><span title="Welcome to Chipro" class="linkLabel_WmDU">Welcome to Chipro</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/chipro-docs/docs/quick-start/overview"><span title="Quick Start" class="categoryLinkLabel_W154">Quick Start</span></a><button aria-label="Expand sidebar category &#x27;Quick Start&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/chipro-docs/docs/chipro/overview"><span title="Chipro" class="categoryLinkLabel_W154">Chipro</span></a><button aria-label="Collapse sidebar category &#x27;Chipro&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/chipro-docs/docs/chipro/design-manager"><span title="Design Manager" class="categoryLinkLabel_W154">Design Manager</span></a><button aria-label="Expand sidebar category &#x27;Design Manager&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" tabindex="0" href="/chipro-docs/docs/chipro/mohet/overview"><span title="Mohet Assistant" class="categoryLinkLabel_W154">Mohet Assistant</span></a><button aria-label="Collapse sidebar category &#x27;Mohet Assistant&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" tabindex="0" href="/chipro-docs/docs/chipro/mohet/getting-started/"><span title="Getting Started" class="categoryLinkLabel_W154">Getting Started</span></a><button aria-label="Collapse sidebar category &#x27;Getting Started&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/chipro-docs/docs/chipro/mohet/getting-started/provider-setup"><span title="Provider Setup" class="linkLabel_WmDU">Provider Setup</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/chipro-docs/docs/chipro/mohet/getting-started/embedding-setup"><span title="Embedding Setup" class="linkLabel_WmDU">Embedding Setup</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/chipro-docs/docs/chipro/mohet/getting-started/model-selection"><span title="Model Selection" class="linkLabel_WmDU">Model Selection</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/chipro-docs/docs/quick-start/tutorials/overview"><span title="Tutorials" class="linkLabel_WmDU">Tutorials</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/chipro-docs/docs/chipro/mohet/chat/"><span title="Chat" class="categoryLinkLabel_W154">Chat</span></a><button aria-label="Expand sidebar category &#x27;Chat&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/chipro-docs/docs/chipro/mohet/api-key-management"><span title="API Key Management" class="linkLabel_WmDU">API Key Management</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/chipro-docs/docs/chipro/mohet/settings/"><span title="Settings" class="categoryLinkLabel_W154">Settings</span></a><button aria-label="Expand sidebar category &#x27;Settings&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/chipro-docs/docs/chipro/platform"><span title="Platform" class="categoryLinkLabel_W154">Platform</span></a><button aria-label="Expand sidebar category &#x27;Platform&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/chipro-docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/chipro-docs/docs/chipro/overview"><span>Chipro</span></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/chipro-docs/docs/chipro/mohet/overview"><span>Mohet Assistant</span></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/chipro-docs/docs/chipro/mohet/getting-started/"><span>Getting Started</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Tutorials</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Building a Full Digital Design From Chat</h1></header>
-<p>Learn how to use Mohet to create projects, generate HDL, run simulations, and inspect results—all without touching the Design Manager.</p>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/chipro-docs/img/mabrains_logo_simple.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/chipro-docs/"><div class="navbar__logo"><img src="/chipro-docs/img/mabrains_logo_simple.svg" alt="Mabrains" class="themedComponent_mlkZ themedComponent--light_NVdE" height="28" width="28"><img src="/chipro-docs/img/mabrains_logo_simple.svg" alt="Mabrains" class="themedComponent_mlkZ themedComponent--dark_xIcU" height="28" width="28"></div><b class="navbar__title text--truncate">Mabrains</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/chipro-docs/docs/intro">Documentation</a><a href="https://mabrains.com" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Mabrains Website<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/mabrains" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/chipro-docs/docs/intro"><span title="Welcome to Chipro" class="linkLabel_WmDU">Welcome to Chipro</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/chipro-docs/docs/quick-start/overview"><span title="Quick Start" class="categoryLinkLabel_W154">Quick Start</span></a><button aria-label="Expand sidebar category &#x27;Quick Start&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/chipro-docs/docs/chipro/overview"><span title="Chipro" class="categoryLinkLabel_W154">Chipro</span></a><button aria-label="Collapse sidebar category &#x27;Chipro&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/chipro-docs/docs/chipro/design-manager"><span title="Design Manager" class="categoryLinkLabel_W154">Design Manager</span></a><button aria-label="Expand sidebar category &#x27;Design Manager&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" tabindex="0" href="/chipro-docs/docs/chipro/mohet/overview"><span title="Mohet Assistant" class="categoryLinkLabel_W154">Mohet Assistant</span></a><button aria-label="Collapse sidebar category &#x27;Mohet Assistant&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" tabindex="0" href="/chipro-docs/docs/chipro/mohet/getting-started/"><span title="Getting Started" class="categoryLinkLabel_W154">Getting Started</span></a><button aria-label="Collapse sidebar category &#x27;Getting Started&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/chipro-docs/docs/chipro/mohet/getting-started/provider-setup"><span title="Provider Setup" class="linkLabel_WmDU">Provider Setup</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/chipro-docs/docs/chipro/mohet/getting-started/embedding-setup"><span title="Embedding Setup" class="linkLabel_WmDU">Embedding Setup</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/chipro-docs/docs/chipro/mohet/getting-started/model-selection"><span title="Model Selection" class="linkLabel_WmDU">Model Selection</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/chipro-docs/docs/quick-start/tutorials/overview"><span title="Tutorials" class="linkLabel_WmDU">Tutorials</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/chipro-docs/docs/chipro/mohet/chat/"><span title="Chat" class="categoryLinkLabel_W154">Chat</span></a><button aria-label="Expand sidebar category &#x27;Chat&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/chipro-docs/docs/chipro/mohet/api-key-management"><span title="API Key Management" class="linkLabel_WmDU">API Key Management</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/chipro-docs/docs/chipro/mohet/settings/"><span title="Settings" class="categoryLinkLabel_W154">Settings</span></a><button aria-label="Expand sidebar category &#x27;Settings&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/chipro-docs/docs/chipro/platform"><span title="Platform" class="categoryLinkLabel_W154">Platform</span></a><button aria-label="Expand sidebar category &#x27;Platform&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/chipro-docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/chipro-docs/docs/chipro/overview"><span>Chipro</span></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/chipro-docs/docs/chipro/mohet/overview"><span>Mohet Assistant</span></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/chipro-docs/docs/chipro/mohet/getting-started/"><span>Getting Started</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Tutorials</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Build a Complete Digital Design Using Mohet</h1></header>
+<p>Mohet allows you to create full digital projects, generate HDL, run LibreLane, and inspect results <strong>entirely from chat</strong>—no manual file edits or Design Manager navigation required.</p>
+<p>This tutorial shows the full flow using the <strong>Basic Digital</strong> mode.</p>
 <hr>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="important-notes-before-you-start">Important Notes Before You Start<a href="#important-notes-before-you-start" class="hash-link" aria-label="Direct link to Important Notes Before You Start" title="Direct link to Important Notes Before You Start" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-use-a-high-quality-model"><strong>1. Use a high-quality model</strong><a href="#1-use-a-high-quality-model" class="hash-link" aria-label="Direct link to 1-use-a-high-quality-model" title="Direct link to 1-use-a-high-quality-model" translate="no">​</a></h3>
-<p>Mohet gives you complete control over the provider and model.
-However:</p>
-<ul>
-<li class=""><strong>Low-tier models → will fail frequently</strong></li>
-<li class=""><strong>Limited-context models → will forget instructions</strong></li>
-<li class=""><strong>Cheap models → may not generate valid Verilog, configs, or workflow steps</strong></li>
-</ul>
-<p>For the <em>best</em> results, we strongly recommend:</p>
-<ul>
-<li class=""><strong>GPT-5 / GPT-4.1 / GPT-5-mini</strong></li>
-<li class=""><strong>Moonshot</strong></li>
-<li class=""><strong>Groq + QwQ / Llama 3.1 405B</strong></li>
-<li class=""><strong>OpenAI GPT-OSS 120B</strong></li>
-</ul>
+<h1>Before You Start</h1>
+<p>Mohet supports many AI models, but <strong>not all of them can reliably execute multi-step chip design workflows</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="model-performance-for-digital-flow">Model Performance for Digital Flow<a href="#model-performance-for-digital-flow" class="hash-link" aria-label="Direct link to Model Performance for Digital Flow" title="Direct link to Model Performance for Digital Flow" translate="no">​</a></h3>
+<table><thead><tr><th style="text-align:left">Provider</th><th style="text-align:left">Model</th><th style="text-align:left">Successful first time demo digital flow</th><th style="text-align:left">Issues</th><th style="text-align:left">Speed</th><th style="text-align:left">Comments</th></tr></thead><tbody><tr><td style="text-align:left"><strong>OpenAI</strong></td><td style="text-align:left">GPT-5.1/GPT-5</td><td style="text-align:left"><strong>True</strong></td><td style="text-align:left">No Known Issues</td><td style="text-align:left">Medium</td><td style="text-align:left">Smartest model provides the best results from the first try, yielding excellent performance metrics.</td></tr><tr><td style="text-align:left"><strong>OpenAI</strong></td><td style="text-align:left">GPT-5/5.1-Mini</td><td style="text-align:left"><strong>True</strong></td><td style="text-align:left">No Known Issues</td><td style="text-align:left">Slow</td><td style="text-align:left">Decent performance but a bit slow.</td></tr><tr><td style="text-align:left"><strong>OpenAI</strong></td><td style="text-align:left">GPT-5/5.1-Nano</td><td style="text-align:left">False</td><td style="text-align:left">May commit minor logical issues</td><td style="text-align:left">Slow</td><td style="text-align:left">Slower than the other models with weaker performance may require iterations.</td></tr><tr><td style="text-align:left"><strong>OpenAI</strong></td><td style="text-align:left">GPT-4</td><td style="text-align:left">False</td><td style="text-align:left">May commit minor logical issues</td><td style="text-align:left">Slow</td><td style="text-align:left">Slow model with okay performance. I prefer the GPT-5-Mini to this one even though they are comparable.</td></tr><tr><td style="text-align:left"><strong>OpenAI</strong></td><td style="text-align:left">GPT-4-Mini</td><td style="text-align:left">False</td><td style="text-align:left">May commit minor logical issues</td><td style="text-align:left">Slow</td><td style="text-align:left">Slow model requires iterations but will get the job done, i don&#x27;t recommend it.</td></tr><tr><td style="text-align:left"><strong>OpenAI</strong></td><td style="text-align:left">GPT-4-Nano</td><td style="text-align:left">False</td><td style="text-align:left">Commits major logical issues</td><td style="text-align:left">Slow</td><td style="text-align:left">Very slow not worth using.</td></tr><tr><td style="text-align:left"><strong>Groq</strong></td><td style="text-align:left">Moonshot/Kimi-K2-Instruct-0905</td><td style="text-align:left"><strong>True</strong></td><td style="text-align:left">Hallucinates tool call execution</td><td style="text-align:left">Medium</td><td style="text-align:left">Very large context window &amp; works well but there&#x27;s a major issue that it may hallucinate tool call execution without executing them.</td></tr><tr><td style="text-align:left"><strong>Groq</strong></td><td style="text-align:left">GPT-OSS-120B</td><td style="text-align:left">False</td><td style="text-align:left">Limited Context Window</td><td style="text-align:left"><strong>Fast</strong></td><td style="text-align:left">The fastest model with decent performance and excellent presentability using tables and markup but the context window is really the issue where it may fail mid execution and not be able to complete the response causing an incomplete end of json error.</td></tr><tr><td style="text-align:left"><strong>Groq</strong></td><td style="text-align:left">qwen3-32b</td><td style="text-align:left">False</td><td style="text-align:left">May commit minor logical issues</td><td style="text-align:left">Medium</td><td style="text-align:left">Just a mediocre model in every category.</td></tr><tr><td style="text-align:left"><strong>Local</strong></td><td style="text-align:left">GPT-OSS-20B</td><td style="text-align:left">False</td><td style="text-align:left">Limited Context Window / Minor Issues</td><td style="text-align:left">Medium</td><td style="text-align:left">The edge for this model is the cost, good for basic testing.</td></tr><tr><td style="text-align:left"><strong>Local</strong></td><td style="text-align:left">qwen3-coder-30b-a3b-instruct</td><td style="text-align:left">False</td><td style="text-align:left">Infinite Loop &amp; Hallucinations</td><td style="text-align:left">Medium</td><td style="text-align:left">Faces the infinite loop issue and repeats tool calls.</td></tr></tbody></table>
+<p><strong>Recommendation:</strong><br>
+<!-- -->Use <strong>GPT-5</strong>, <strong>GPT-5.1</strong>, <strong>Moonshot</strong>, or <strong>GPT-OSS-120B</strong> for the smoothest experience.</p>
 <hr>
-<h1>Tutorial Overview</h1>
-<p>In this tutorial, we will:</p>
-<ol>
-<li class="">Start a new chat using the <strong>Digital Design Flow</strong></li>
-<li class="">Create a full GF180 MCU project from scratch</li>
-<li class="">Auto-generate the hierarchy (library, cell, views)</li>
-<li class="">Generate Verilog code for a 4-bit counter</li>
-<li class="">Run LibreLane directly from chat</li>
-<li class="">Inspect layout, logs, and results—all generated automatically</li>
-</ol>
-<p>Everything is done <strong>inside the Mohet chat window</strong>.
-You will <strong>not</strong> manually create files, open sidebars, or modify the Design Manager.</p>
-<hr>
-<h1>1. Using the General Flow</h1>
-<p>Before focusing on the Digital Designer Flow, let’s quickly see what the <strong>Default / General Flow</strong> can do.</p>
-<p>This flow is ideal for:</p>
-<ul>
-<li class="">General questions</li>
-<li class="">Research</li>
-<li class="">Web search tasks</li>
-<li class="">Summaries and reports</li>
-</ul>
-<p>Example:</p>
+<h1>1. Start With the General Flow (Optional)</h1>
+<p>Before using the digital flow, you can test the <strong>Default / General Flow</strong>:</p>
 <blockquote>
-<p><strong>“List the top 3 largest lakes in the world and give me the links.”</strong></p>
+<p>“List the top 3 largest lakes in the world and include links.”</p>
+</blockquote>
+<p>Mohet will perform live web search, summarize sources, and present clickable results.</p>
+<p>This validates your provider + model setup.</p>
+<hr>
+<h1>2. Switch to a Strong Model</h1>
+<p>Open the <strong>Model Selector</strong> and choose a high-quality model<br>
+<!-- -->(e.g., <em>GPT-5</em>, <em>GPT-OSS-120B</em>, <em>Moonshot</em>).</p>
+<p>Low-tier models will often:</p>
+<ul>
+<li class="">forget the hierarchy</li>
+<li class="">produce invalid HDL</li>
+<li class="">break during LibreLane execution</li>
+</ul>
+<hr>
+<h1>3. Start the <strong>Digital Designer</strong> Flow</h1>
+<p>Switch the flow to <strong>Basic Digital</strong>.<br>
+<!-- -->This flow is optimized for:</p>
+<ul>
+<li class="">Verilog generation</li>
+<li class="">PDK-aware hierarchy creation</li>
+<li class="">LibreLane config &amp; runs</li>
+</ul>
+<hr>
+<h1>4. Create the Full Project Automatically</h1>
+<p>Send:</p>
+<blockquote>
+<p><strong>“Create a counter project under the GF180MCU D PDK with a library named <code>counter_lib</code> and a single cell. Build the entire hierarchy.”</strong></p>
 </blockquote>
 <p>Mohet will:</p>
 <ul>
-<li class="">Perform a live web search</li>
-<li class="">Retrieve sources</li>
-<li class="">Summarize results</li>
-<li class="">Present links you can click</li>
-<li class="">Produce a structured report</li>
+<li class="">confirm the PDK</li>
+<li class="">create the project</li>
+<li class="">create the library</li>
+<li class="">create the cell</li>
 </ul>
-<p>This demonstrates how Mohet behaves in non-engineering tasks.</p>
+<p>All appear instantly in the Design Manager.</p>
 <hr>
-<h1>2. Switch to a High-Tier Model</h1>
-<p>Before starting the digital workflow, select a capable model:</p>
-<ul>
-<li class="">Open the <strong>model selector</strong> in the header</li>
-<li class="">Choose <strong>GPT-5</strong>, <strong>GPT-OSS 120B</strong>, <strong>Moonshot</strong>, <strong>QwQ-XL</strong>, etc.</li>
-</ul>
-<p>This ensures Mohet can correctly reason about hierarchy creation, HDL syntax, LibreLane configuration, and PDK flows.</p>
-<hr>
-<h1>3. Start the Digital Designer Flow</h1>
-<p>Switch to the <strong>Basic Digital</strong> flow from the sidebar or header flow selector.
-This flow is optimized for:</p>
-<ul>
-<li class="">Verilog/VHDL</li>
-<li class="">Hierarchy generation</li>
-<li class="">Project + PDK setup</li>
-<li class="">LibreLane interactions</li>
-<li class="">Simulation workflows</li>
-</ul>
-<hr>
-<h1>4. Create the Project Automatically</h1>
-<p>In a new chat, send:</p>
+<h1>5. Generate the HDL and Views</h1>
+<p>Next:</p>
 <blockquote>
-<p><strong>“Create a counter project under the GF180MCU D PDK with a library named <code>NSL</code> and a single cell. Build the entire hierarchy.”</strong></p>
+<p><strong>“Create a Verilog view and a LibreLane view under the cell.”</strong></p>
+</blockquote>
+<p>Then:</p>
+<blockquote>
+<p><strong>“Write Verilog for a 4-bit counter using the top cell name as the module name and save it.”</strong></p>
 </blockquote>
 <p>Mohet will:</p>
 <ul>
-<li class="">Verify the PDK exists</li>
-<li class="">Create the project</li>
-<li class="">Add the library</li>
-<li class="">Add the cell</li>
+<li class="">generate the HDL</li>
+<li class="">save it to the Verilog view</li>
+<li class="">validate the config</li>
 </ul>
-<p>You can verify everything in the <strong>Design Manager panel</strong>—it will appear instantly.</p>
 <hr>
-<h1>5. Create Verilog &amp; LibreLane Views</h1>
-<p>Next, ask:</p>
-<blockquote>
-<p><strong>“Create a Verilog view and a LibreLane view under that cell.”</strong></p>
-</blockquote>
-<p>Mohet checks:</p>
-<ul>
-<li class="">Project folder</li>
-<li class="">Library folder</li>
-<li class="">Cell folder</li>
-</ul>
-<p>Then it auto-creates:</p>
-<ul>
-<li class=""><code>verilog/</code> view → with placeholder module</li>
-<li class=""><code>liberate/</code> or <code>liblane/</code> config</li>
-</ul>
-<p>These appear immediately inside the Design Manager.</p>
-<hr>
-<h1>6. Generate the Verilog Code</h1>
-<p>Now ask:</p>
-<blockquote>
-<p><strong>“Write Verilog code for a 4-bit counter using the top cell name as the module name. Save it into the Verilog view file.”</strong></p>
-</blockquote>
-<p>Mohet will:</p>
-<ul>
-<li class="">Generate clean Verilog code</li>
-<li class="">Use the correct top module name</li>
-<li class="">Write the content to the file</li>
-<li class="">Display the code in the chat for review</li>
-</ul>
-<p>You can confirm by opening it in VSCode or the inline editor.</p>
-<hr>
-<h1>7. Run LibreLane From the Chat</h1>
+<h1>6. Run LibreLane From Chat</h1>
 <p>Ask:</p>
 <blockquote>
 <p><strong>“Run LibreLane for this design.”</strong></p>
 </blockquote>
 <p>Mohet will:</p>
-<ol>
-<li class="">Prepare a LibreLane run</li>
-<li class="">Trigger the flow server</li>
-<li class="">Post status updates</li>
-<li class="">Stream logs into the chat</li>
-<li class="">Confirm when the run completes</li>
-</ol>
-<p>You can also monitor in:</p>
 <ul>
-<li class=""><code>Design Manager → LibreLane → Runs</code></li>
-<li class="">Open the log panel</li>
-<li class="">Inspect the checker output</li>
+<li class="">launch the run</li>
+<li class="">stream logs</li>
+<li class="">notify on completion</li>
 </ul>
+<p>You can verify in:</p>
+<p><strong>Design Manager → LibreLane → Runs</strong></p>
 <hr>
-<h1>8. Summarize the Run Results</h1>
-<p>Once the run completes, ask:</p>
+<h1>7. Summarize and Inspect the Results</h1>
+<p>After the run:</p>
 <blockquote>
-<p><strong>“Present the results of the LibreLane run.”</strong></p>
+<p><strong>“Summarize the LibreLane run results.”</strong></p>
 </blockquote>
-<p>Mohet will:</p>
+<p>Mohet will provide:</p>
 <ul>
-<li class="">Parse the run directory</li>
-<li class="">Extract DRC, LVS, STA, layout status, area, warnings</li>
-<li class="">Produce a summary</li>
-<li class="">Provide insights (timing, violations, routing issues)</li>
+<li class="">DRC/LVS status</li>
+<li class="">Area + metrics</li>
+<li class="">Warnings and violations</li>
+<li class="">Layout status</li>
 </ul>
-<p>This works even if the run created multiple subfolders.</p>
+<p>You can open the layout viewer to inspect the final GDS.</p>
 <hr>
-<h1>9. Visualize the Layout</h1>
-<p>Go to:</p>
-<p><strong>Design Manager → LibreLane → Layout Viewer</strong></p>
-<p>You can:</p>
+<h1>8. Extend the Design</h1>
+<p>Try asking Mohet to:</p>
 <ul>
-<li class="">Inspect GDS</li>
-<li class="">Zoom on the final routed layout</li>
-<li class="">Compare runs</li>
-<li class="">Validate if everything matches the generated Verilog logic</li>
+<li class="">add testbenches</li>
+<li class="">generate timing constraints</li>
+<li class="">build multi-cell hierarchies</li>
+<li class="">modify counter width</li>
+<li class="">generate higher-level digital subsystems</li>
 </ul>
-<p>All of this was achieved <strong>without manually editing any file or opening the hierarchy</strong>.</p>
-<hr>
-<h1>10. Try Other Variations</h1>
-<p>You can extend the tutorial by asking Mohet to:</p>
-<ul>
-<li class="">Add testbenches</li>
-<li class="">Run NGSpice for mixed-signal blocks</li>
-<li class="">Generate multi-cell combinational designs</li>
-<li class="">Build SoC-level hierarchies</li>
-<li class="">Modify parameters and regenerate layouts</li>
-</ul>
-<p>High-tier models excel here.
-Low-tier models may misinterpret the hierarchy or generate invalid HDL.</p>
-<hr>
-<h1>Recommended Models for Mohet Tutorials</h1>
-<p>To avoid errors, hallucinations, and partial outputs:</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="top-tier-best"><strong>Top Tier (Best)</strong><a href="#top-tier-best" class="hash-link" aria-label="Direct link to top-tier-best" title="Direct link to top-tier-best" translate="no">​</a></h3>
-<ul>
-<li class="">GPT-5 (OpenAI)</li>
-<li class="">Moonshot (Kimi AI)</li>
-<li class="">QwQ-XL / QwQ-Pro</li>
-<li class="">GPT-OSS-120B</li>
-<li class="">Groq + Llama 3.1 405B</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="acceptable"><strong>Acceptable</strong><a href="#acceptable" class="hash-link" aria-label="Direct link to acceptable" title="Direct link to acceptable" translate="no">​</a></h3>
-<ul>
-<li class="">GPT-4.1</li>
-<li class="">Mistral Large</li>
-<li class="">Llama 3.1 70B (cloud or LMStudio local)</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="not-recommended"><strong>Not Recommended</strong><a href="#not-recommended" class="hash-link" aria-label="Direct link to not-recommended" title="Direct link to not-recommended" translate="no">​</a></h3>
-<ul>
-<li class="">Nomic embed models</li>
-<li class="">Ultra-small 1B–8B models</li>
-<li class="">Basic LMStudio local models</li>
-</ul>
-<p>They cannot reliably:</p>
-<ul>
-<li class="">Maintain hierarchy reasoning</li>
-<li class="">Generate HDL without syntax errors</li>
-<li class="">Understand LibreLane configs</li>
-<li class="">Follow multi-step tasks</li>
-<li class="">Produce consistent simulation flows</li>
-</ul>
+<p>High-end models excel at this; small models will struggle.</p>
 <hr>
 <h1>Final Notes</h1>
-<p>Mohet is fully capable of building entire chip design flows end-to-end with <strong>zero manual file editing</strong>.
-You can:</p>
+<p>Using Mohet’s Digital Designer flow, you can build a complete GF180 digital project:</p>
 <ul>
-<li class="">Generate HDL</li>
-<li class="">Build hierarchy</li>
-<li class="">Run LibreLane</li>
-<li class="">Inspect results</li>
-<li class="">Debug runs</li>
-<li class="">Iterate with AI</li>
+<li class=""><strong>Hierarchy → HDL → LibreLane → Results</strong></li>
+<li class="">All inside chat</li>
+<li class="">With zero manual file work</li>
 </ul>
-<p>Try different models and flows to see which performs best for your workflow.</p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/chipro-docs/docs/chipro/mohet/getting-started/model-selection"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Model Selection</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/chipro-docs/docs/chipro/mohet/chat/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Chat Overview</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#important-notes-before-you-start" class="table-of-contents__link toc-highlight">Important Notes Before You Start</a><ul><li><a href="#1-use-a-high-quality-model" class="table-of-contents__link toc-highlight"><strong>1. Use a high-quality model</strong></a></li><li><a href="#top-tier-best" class="table-of-contents__link toc-highlight"><strong>Top Tier (Best)</strong></a></li><li><a href="#acceptable" class="table-of-contents__link toc-highlight"><strong>Acceptable</strong></a></li><li><a href="#not-recommended" class="table-of-contents__link toc-highlight"><strong>Not Recommended</strong></a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Mabrains Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/chipro-docs/docs/intro">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/chipro-docs/docs/chipro/overview">Platform Overview</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Platform</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://mabrains.com#features" target="_blank" rel="noopener noreferrer" class="footer__link-item">Features<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://mabrains.com#tools" target="_blank" rel="noopener noreferrer" class="footer__link-item">Tools<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://careers.mabrains.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Careers<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://mabrains.com/contact" target="_blank" rel="noopener noreferrer" class="footer__link-item">Contact<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Social</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/mabrains" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://eg.linkedin.com/company/mabrains" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://x.com/mabrains1" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/@mabrains" target="_blank" rel="noopener noreferrer" class="footer__link-item">YouTube<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">© 2025 Mabrains. All rights reserved.</div></div></div></footer></div>
+<p>Experiment with different models and flows to find the configuration that works best for your design style.</p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/chipro-docs/docs/chipro/mohet/getting-started/model-selection"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Model Selection</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/chipro-docs/docs/chipro/mohet/chat/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Chat Overview</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#model-performance-for-digital-flow" class="table-of-contents__link toc-highlight">Model Performance for Digital Flow</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Mabrains Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/chipro-docs/docs/intro">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/chipro-docs/docs/chipro/overview">Platform Overview</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Platform</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://mabrains.com#features" target="_blank" rel="noopener noreferrer" class="footer__link-item">Features<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://mabrains.com#tools" target="_blank" rel="noopener noreferrer" class="footer__link-item">Tools<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://careers.mabrains.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Careers<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://mabrains.com/contact" target="_blank" rel="noopener noreferrer" class="footer__link-item">Contact<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Social</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/mabrains" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://eg.linkedin.com/company/mabrains" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://x.com/mabrains1" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/@mabrains" target="_blank" rel="noopener noreferrer" class="footer__link-item">YouTube<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">© 2025 Mabrains. All rights reserved.</div></div></div></footer></div>
 </body>
 </html>
