@@ -41,7 +41,7 @@ Once the ZIP file is downloaded, extract it and run the installer that matches y
 
 3. After launching the installer, you will see the Chipro Installer Home screen, where you can configure settings and start the application.
 
-![Installer Home Screen](@site/static/img/chipro/quickStart/installation/installer_home_screen.png)
+![Installer Home Screen](@site/static/img/chipro/quickStart/installation/runner_home_screen.png)
 
 ---
 
@@ -68,7 +68,7 @@ The installer allows you to configure three main settings:
 > Your settings are saved automatically, even if you close the installer.  
 > After entering new values, press **Enter** to apply them.
 
-![Installer Settings](@site/static/img/chipro/quickStart/installation/installer_settings.png)
+![Runner Settings](@site/static/img/chipro/quickStart/installation/runner_settings.png)
 
 ---
 
