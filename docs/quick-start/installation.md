@@ -1,21 +1,21 @@
 ---
-title: Installation
+title: Installation and Running
 description: Step-by-step guide to installing Chipro.
 sidebar_position: 1
 ---
 
 # Chipro Installation
 
-Chipro provides a lightweight, cross-platform installer that simplifies setup—even for users with minimal experience working with containerized applications.
+Chipro provides a lightweight, cross-platform running that simplifies setup—even for users with minimal experience working with containerized applications.
 
 > **Prerequisite:**  
 > Chipro runs inside a container. **Docker** or **Podman** must be installed on your system before continuing.
 
 ---
 
-## 1. Download the Installer
+## 1. Download the Runner
 
-The official installer is available on the Chipro GitHub repository.
+The official runner is available on the Chipro GitHub repository.
 
 1. Visit the Chipro repository:  
    [https://github.com/mabrains/chipro](https://github.com/mabrains/chipro)
@@ -26,30 +26,31 @@ The official installer is available on the Chipro GitHub repository.
 
 ---
 
-## 2. Unzip and Run the Installer
+## 2. Unzip and Run the Runner
 
-Once the ZIP file is downloaded, extract it and run the installer that matches your operating system.
+Once the ZIP file is downloaded, extract it and run the runner that matches your operating system.
 
 1. Locate the downloaded ZIP file and extract it.
 
    > Most operating systems allow extraction by simply double-clicking the ZIP file.
 
-2. Open the folder corresponding to your OS and architecture, then run the installer executable.
-   > On Linux, you must run the installer from the **Terminal**.
+2. Open the folder corresponding to your OS and architecture, then run the runner executable.
+   > On Linux, you must run the runner from the **Terminal**.
 
 ![Running on Linux](@site/static/img/chipro/quickStart/installation/running_on_linux.png)
 
-3. After launching the installer, you will see the Chipro Installer Home screen, where you can configure settings and start the application.
+3. After launching the runner, you will see the Chipro Runner Home screen, where you can configure settings and start the application.
+   > _The runner main menu will show if there's a running instance and will show the ports of it, Also it will show if the image is downloaded._
 
-![Installer Home Screen](@site/static/img/chipro/quickStart/installation/installer_home_screen.png)
+![Runner Home Screen](@site/static/img/chipro/quickStart/installation/runner_home_screen.png)
 
 ---
 
-## 3. Using the Installer
+## 3. Using the Runner
 
 ### Settings
 
-The installer allows you to configure three main settings:
+The runner allows you to configure three main settings:
 
 - **User Area**
 
@@ -65,10 +66,10 @@ The installer allows you to configure three main settings:
 - **Application Port**
   - The port used to access Mohet and the Design Manager.
 
-> Your settings are saved automatically, even if you close the installer.  
+> Your settings are saved automatically, even if you close the runner.  
 > After entering new values, press **Enter** to apply them.
 
-![Installer Settings](@site/static/img/chipro/quickStart/installation/installer_settings.png)
+![Runner Settings](@site/static/img/chipro/quickStart/installation/runner_settings.png)
 
 ---
 
@@ -79,7 +80,7 @@ The **Start Application** button performs the following:
 - Downloads the Chipro container image (if not already available).
 - Starts the application using your configured settings.
 
-If your VNC or Application ports are already in use, the installer will automatically assign alternative available ports. A message will appear showing the final ports along with direct access links.
+If your VNC or Application ports are already in use, the runner will automatically assign alternative available ports. A message will appear showing the final ports along with direct access links.
 
 > **Note:**  
 > The Chipro image is approximately **2.5 GB**, so the initial download may take some time depending on your internet connection. Please be patient.
@@ -90,7 +91,7 @@ If your VNC or Application ports are already in use, the installer will automati
 
 ## 4. Viewing Results and Opening Chipro
 
-After the container is successfully started, the installer will display a results screen showing:
+After the container is successfully started, the runner will display a results screen showing:
 
 - The assigned ports
 - Direct links to open Chipro in your browser
